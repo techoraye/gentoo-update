@@ -22,7 +22,7 @@ const std::string NC = "\033[0m";
 // Global variables
 std::string name = "gentoo-update";
 std::string _name = "Gentoo-Update";
-std::string version = "0.1";
+std::string version = "0.2";
 std::string libdir;
 std::string option;
 std::string config_file;
