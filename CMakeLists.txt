@@ -32,6 +32,13 @@ install(FILES
 	DESTINATION share/doc/gentoo-update
 )
 
+# Install headers/lib
+install(DIRECTORY
+	src/lib/
+	DESTINATION include/gentoo-update
+	FILES_MATCHING PATTERN "*.hpp"
+)
+
 # Install man pages
 install(FILES
 	doc/man/gentoo-update.1
