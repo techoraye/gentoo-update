@@ -1,0 +1,55 @@
+# Build and installation
+.build/
+build/
+*.o
+*.a
+*.so
+*.dylib
+gentoo-update
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/
+.idea/
+*.cmake
+CMakeFiles/
+CMakeCache.txt
+install_manifest.txt
+Makefile
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Editor files
+*.vim
+.editor
+.editorconfig
+
+# OS
+*.exe
+*.dll
+*.so
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# Test files
+test_results.txt
+*.gcov
+*.gcda
+*.gcno
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Documentation
+doc/man/*.html

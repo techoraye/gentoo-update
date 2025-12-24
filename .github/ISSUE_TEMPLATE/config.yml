@@ -1,0 +1,5 @@
+blank: false
+contact_links:
+  - name: Security Issues
+    url: https://github.com/Techoraye/gentoo-update/security/advisories
+    about: Please report security vulnerabilities responsibly
