@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Gentoo Update
+Comment=Check and apply Gentoo Linux updates
+Exec=gentoo-update
+Icon=system-software-update
+Categories=System;Utility;
+Terminal=false
+MimeType=
+StartupNotify=true
