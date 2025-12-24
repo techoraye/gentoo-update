@@ -200,6 +200,7 @@ void check_updates() {
 			
 			if (sync_result == 0) {
 				std::cout << GREEN << "✓ Repositories synced successfully" << NC << std::endl;
+				send_notification("Gentoo-Update", "Repositories synced successfully");
 			} else {
 				std::cout << YELLOW << "⚠ Repository sync had some issues" << NC << std::endl;
 				std::cout << BLUE << "Try running: sudo emaint sync -a" << NC << std::endl;
@@ -305,9 +306,12 @@ void start_tray() {
 	
 	// Send startup notification
 	send_notification("Gentoo-Update", "System tray mode started - monitoring for updates");
+	std::cout << CYAN << "Starting continuous update monitoring..." << NC << std::endl;
+	std::cout << CYAN << "Press Ctrl+C to stop" << NC << std::endl;
 	
 	while (true) {
 		check_updates();
+		std::cout << BLUE << "Next check in " << CheckInterval << " seconds..." << NC << std::endl;
 		sleep(CheckInterval);
 	}
 }

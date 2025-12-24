@@ -3,7 +3,7 @@
 > An update notifier & applier for Gentoo Linux that assists you with important pre/post update tasks
 
 [![GitHub Release](https://img.shields.io/github/release/Techoraye/gentoo-update.svg)](https://github.com/Techoraye/gentoo-update/releases)
-[![GitHub License](https://img.shields.io/github/license/Techoraye/gentoo-update.svg)](https://github.com/Techoraye/gentoo-update/blob/master/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/Techoraye/gentoo-update.svg)](https://github.com/Techoraye/gentoo-update/blob/main/LICENSE)
 
 ## Features
 
