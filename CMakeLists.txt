@@ -27,7 +27,6 @@ install(FILES
 	CONTRIBUTING.md
 	MAINTAINERS.md
 	RELEASE.md
-	SECURITY.md
 	LICENSE
 	DESTINATION share/doc/gentoo-update
 )
